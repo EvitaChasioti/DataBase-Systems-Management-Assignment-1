@@ -2,6 +2,9 @@
 #define HP_FILE_H
 #include <record.h>
 
+//#define HP_OK 0
+//#define HP_ERROR -1
+
 typedef struct{
 
 }HP_block_info;

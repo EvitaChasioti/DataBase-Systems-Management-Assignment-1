@@ -52,7 +52,13 @@ HP_info* HP_OpenFile(char *fileName){
 
 int HP_CloseFile( HP_info* hp_info ){
 
-  return 0;
+  //CALL_BF(BF_CloseFile(hp_info->FileDesc));
+
+  //free(hp_info);
+
+  //return HP_OK;
+
+
 }
 
 int HP_InsertEntry(HP_info* hp_info, Record record){
